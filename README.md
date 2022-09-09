@@ -8,8 +8,8 @@ A skill Frases de Analista tem o objetivo de divertir as pessoas com frases do d
 
 Ela possui a capacidade de:
 
-De falar frases aleatorias conforme o usuário solicita uma imitação.
-Entende de as formas como o usuário fala o nome do cargo como "Analista","Analista de Testes" e Etc. 
+Falar frases aleatorias conforme o usuário solicita uma imitação.
+Entende as formas como o usuário fala o nome do cargo como "Analista","Analista de Testes" e Etc. 
 
 # Como usar:
 

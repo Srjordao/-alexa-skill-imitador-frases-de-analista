@@ -1,0 +1,81 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Frases do dia a dia de um analista.",
+          "examplePhrases": [
+            "Alexa abra frases de analista",
+            "Fala uma frase de um analista de testes",
+            "Imita um analista"
+          ],
+          "keywords": [
+            "analista",
+            "automação",
+            "testes.",
+            "dev",
+            "qa",
+            "desevolvedor",
+            "testes",
+            "funcionais",
+            "rogério",
+            "jordão"
+          ],
+          "name": "Frases de Analista",
+          "description": "A ideia da skill é brincar com as frases que são faladas no dia a dia de trabalho.",
+          "smallIconUri": "file://assets/images/pt-BR_smallIconUri.png",
+          "largeIconUri": "file://assets/images/pt-BR_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [],
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Não há necessidade de credencias.\n\nAbrir frases de analista\nImitar um analista \nImitar um qa",
+      "category": "NOVELTY",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:406004401424:function:2913995e-ccd1-40e7-9851-2efe05ea7b9b:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:406004401424:function:2913995e-ccd1-40e7-9851-2efe05ea7b9b:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:406004401424:function:2913995e-ccd1-40e7-9851-2efe05ea7b9b:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:406004401424:function:2913995e-ccd1-40e7-9851-2efe05ea7b9b:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "pt-BR": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false
+      },
+      "usesPersonalInfo": true
+    }
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "frases de analista",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "ImitadorQaIntent",
+          "slots": [
+            {
+              "name": "tipoqa",
+              "type": "tipoqa"
+            },
+            {
+              "name": "frases",
+              "type": "frases"
+            },
+            {
+              "name": "testador",
+              "type": "testador"
+            },
+            {
+              "name": "analista",
+              "type": "analista"
+            },
+            {
+              "name": "automacao",
+              "type": "automacao"
+            },
+            {
+              "name": "software",
+              "type": "software"
+            },
+            {
+              "name": "testes",
+              "type": "testes"
+            }
+          ],
+          "samples": [
+            "imita um {automacao} de {testes} ",
+            "diga uma frase {software}",
+            "diga uma frase de {automacao}",
+            "diga uma frase de {testador}",
+            "diga uma frase de {analista} ",
+            "fala uma frase de {testador}",
+            "fala uma frase de {software}",
+            "fala uma frase {analista}",
+            "fala uma frase {tipoqa}",
+            "imita {analista}",
+            "imita {automacao}",
+            "imita um {automacao}",
+            "imita um {tipoqa}",
+            "imita um {software}",
+            "imita um {tipoqa} de {testes}",
+            "abra o imitador de {frases}",
+            "fala uma frase de {tipoqa}",
+            "o que um {tipoqa} diz ",
+            "o que um {testador} fala",
+            "imita {tipoqa}",
+            "imita um {analista}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "analista de testes automatizados"
+              }
+            },
+            {
+              "name": {
+                "value": "analista de testes de software"
+              }
+            },
+            {
+              "name": {
+                "value": "analista de testes funcionais "
+              }
+            },
+            {
+              "name": {
+                "value": "analista de teste"
+              }
+            },
+            {
+              "name": {
+                "value": "analista de software"
+              }
+            },
+            {
+              "name": {
+                "value": "analista de automação "
+              }
+            },
+            {
+              "name": {
+                "value": "engenheiro de testes"
+              }
+            },
+            {
+              "name": {
+                "value": "qa"
+              }
+            },
+            {
+              "name": {
+                "value": "testador"
+              }
+            },
+            {
+              "name": {
+                "value": "tester"
+              }
+            },
+            {
+              "name": {
+                "value": "analista de testes"
+              }
+            }
+          ],
+          "name": "tipoqa"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "termos"
+              }
+            },
+            {
+              "name": {
+                "value": "frases"
+              }
+            }
+          ],
+          "name": "frases"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "qualidade"
+              }
+            },
+            {
+              "name": {
+                "value": "automatizados"
+              }
+            },
+            {
+              "name": {
+                "value": "pessoa desenvolvedora "
+              }
+            },
+            {
+              "name": {
+                "value": "testador"
+              }
+            },
+            {
+              "name": {
+                "value": "tester"
+              }
+            },
+            {
+              "name": {
+                "value": "qa"
+              }
+            },
+            {
+              "name": {
+                "value": "dev"
+              }
+            },
+            {
+              "name": {
+                "value": "automação "
+              }
+            },
+            {
+              "name": {
+                "value": "desenvolvedor "
+              }
+            }
+          ],
+          "name": "analista"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "automatizador"
+              }
+            },
+            {
+              "name": {
+                "value": "automação de testes"
+              }
+            },
+            {
+              "name": {
+                "value": "testes automatizados"
+              }
+            },
+            {
+              "name": {
+                "value": "desenvolvimento"
+              }
+            }
+          ],
+          "name": "software"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "testes automatizados"
+              }
+            },
+            {
+              "name": {
+                "value": "analista de automação de testes"
+              }
+            },
+            {
+              "name": {
+                "value": "analista de automação "
+              }
+            },
+            {
+              "name": {
+                "value": "automação "
+              }
+            },
+            {
+              "name": {
+                "value": "automatizador"
+              }
+            }
+          ],
+          "name": "automacao"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "qualidade"
+              }
+            },
+            {
+              "name": {
+                "value": "analista de qualidade"
+              }
+            },
+            {
+              "name": {
+                "value": "analista de testes"
+              }
+            },
+            {
+              "name": {
+                "value": "testes"
+              }
+            },
+            {
+              "name": {
+                "value": "tester"
+              }
+            }
+          ],
+          "name": "testador"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "testes funcionais"
+              }
+            },
+            {
+              "name": {
+                "value": "testes manuais"
+              }
+            },
+            {
+              "name": {
+                "value": "testes automatizados"
+              }
+            },
+            {
+              "name": {
+                "value": "testes"
+              }
+            },
+            {
+              "name": {
+                "value": "teste"
+              }
+            }
+          ],
+          "name": "testes"
+        }
+      ]
+    }
+  },
+  "version": "15"
+}
